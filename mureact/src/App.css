@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  font-family: 'Niramit', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+ 
+h1, h3 {
+  font-family: 'Niramit', sans-serif;
+  color: var(--charcoal);
+  text-decoration: underline;
+  text-decoration-color:var(--sienna);
+  font-size: 28px;
+  text-align: center;
+}
+
+.input {
+  border: 1px solid #333;
+  border-radius: .3em;
+  padding: .25rem;
+  width: 7em;
+}
+
+select {
+  margin-left: .5rem;
+}
+
+.equals {
+  font-weight: bold;
+  font-size: 2rem;
+}
